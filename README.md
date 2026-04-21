@@ -1,5 +1,13 @@
 # Laws of Software Engineering
 
+## Installation
+
+```bash
+npx skills add fmhall/software-laws
+```
+
+## Overview
+
 Scraped from [lawsofsoftwareengineering.com](https://lawsofsoftwareengineering.com/). Each law lives in [`laws/`](laws/) as its own markdown file with frontmatter (`title`, `slug`, `category`, `level`, `summary`, `source`).
 
 ## By category
