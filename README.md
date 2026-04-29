@@ -31,6 +31,22 @@ npx skills add fmhall/software-laws/ux-laws
 
 See [ux-laws/README.md](ux-laws/README.md) for the full categorized index.
 
+## Usage
+
+Once installed, both skills auto-trigger on relevant discussions (architecture trade-offs, UX decisions, etc.). You can also invoke them directly:
+
+```
+/software-laws         # pull the laws into context as a reference
+/ux-laws               # pull the UX laws into context as a reference
+```
+
+Each skill ships an `audit` command that runs a full review of the current project against every law in the pack, with prioritized, location-specific recommendations:
+
+```
+/software-laws audit   # audit architecture, code quality, and team/process signals
+/ux-laws audit         # audit interfaces, flows, and components
+```
+
 ## Structure
 
 ```
