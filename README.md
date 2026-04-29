@@ -1,4 +1,4 @@
-# Laws
+# Software Laws
 
 Two skill packs that bundle canonical laws, principles, and heuristics for software engineering and UX design. Each pack lives in its own folder with a `SKILL.md` manifest and a `laws/` directory of individual markdown files.
 
