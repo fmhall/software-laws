@@ -1,6 +1,7 @@
 ---
 name: software-laws
 description: Reference guide for 56 canonical laws, principles, and heuristics of software engineering — Conway's Law, Brooks's Law, Hyrum's Law, YAGNI, DRY, SOLID, CAP theorem, and more. Triggers when discussing architectural trade-offs, team scaling, process design, code quality principles, or decision-making heuristics, to provide succinct historically-grounded guidance.
+argument-hint: "audit"
 metadata:
   priority: 4
   docs:
@@ -40,6 +41,10 @@ retrieval:
 # Software Laws
 
 A curated collection of 56 established laws, principles, and heuristics that shape software engineering practice. Each law lives in its own markdown file with frontmatter (category, level, summary, source), organized to inform architectural choices, team design, quality practices, and decision-making.
+
+## Command: "audit"
+
+When invoked with the `audit` argument, do a full audit of the user's codebase and engineering practices through the lens of all 56 laws in this skill, and produce actionable, concrete feedback and recommendations. Inspect the architecture, code quality, team/process signals visible in the repo (CI, ownership, branching), and decision-making artifacts. Identify specific violations or opportunities tied to named laws, and prioritize the findings by impact. Each recommendation should reference the law, point to the exact file/module/process, and propose a concrete change — not generic advice.
 
 ## When to Apply
 

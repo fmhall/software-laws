@@ -1,6 +1,7 @@
 ---
 name: ux-laws
 description: Reference guide for 30 canonical laws, principles, and effects of user experience design — Hick's Law, Fitts's Law, Jakob's Law, Miller's Law, Peak-End Rule, the Gestalt principles, and more. Triggers when discussing interface trade-offs, usability decisions, information architecture, attention and memory constraints, or persuasive design heuristics, to provide succinct evidence-grounded guidance.
+argument-hint: "audit"
 metadata:
   priority: 4
   docs:
@@ -41,6 +42,10 @@ retrieval:
 # Laws of UX
 
 A curated collection of 30 established laws, principles, and effects that shape user experience design. Each law lives in its own markdown file with frontmatter (category, summary, source), organized to inform interface decisions, information architecture, and decisions about attention, memory, and behavior.
+
+## Command: "audit"
+
+When invoked with the `audit` argument, do a full audit of the user's UX through the lens of all 30 laws in this skill, and produce actionable, concrete feedback and recommendations. Walk the relevant interfaces (screens, flows, components), identify specific violations or opportunities tied to named laws, and prioritize the findings by impact. Each recommendation should reference the law, point to the exact location in the product, and propose a concrete change — not generic advice.
 
 ## When to Apply
 
